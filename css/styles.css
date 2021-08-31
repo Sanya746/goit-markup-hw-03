@@ -11,6 +11,10 @@
 
 }
 
+li{
+  margin: 0px;
+  padding: 0px;
+}
 .link {
   text-decoration: none;
 }
@@ -43,9 +47,15 @@
 /*-------------HEADER-----------------*/
 
 .header {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   background-color: var(--main-title-color);
 }
 .header-list {
+  padding: 0px;
+  margin: 0px;
+
   font-family: Raleway;
   font-style: 700;
   font-size: 26px;
@@ -71,6 +81,9 @@
   list-style: none;
 }
 .header-link {
+  margin: 0px;
+  padding: 0px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
