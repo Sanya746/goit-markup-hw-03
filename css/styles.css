@@ -1,0 +1,335 @@
+:root {
+  --main-title-color: #ffffff;
+  --secondary-title-color: #757575;
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --third-text-color: #ffffff;
+  --accent-color: #2196f3;
+}
+.body {
+  font-family: "Raleway","Roboto",sans-serif;
+
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+.pre-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.item-text{
+  text-decoration: none;
+}
+.item-text{
+  font-family: Roboto;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*-------------HEADER-----------------*/
+
+.header {
+  background-color: var(--main-title-color);
+}
+.header-list {
+  font-family: Raleway;
+  font-style: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.header-list:hover,
+.header-list:focus {
+  color: var(--accent-color);
+}
+.header-list:active {
+  color: var(--accent-color);
+}
+.Web{
+  color: var(--accent-color);
+}
+.header-nav {
+  list-style: none;
+}
+.header-link {
+  color: var(--main-text-color);
+  list-style: none;
+}
+.header-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-link:focus,
+.header-link:hover {
+  color: var(--accent-color);
+}
+
+.header-link:active {
+  color: var(--accent-color);
+}
+
+.header-email {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.header-email:focus,
+.header-email:hover {
+  color: var(--accent-color);
+}
+.header-email:active {
+  color: var(--accent-color);
+}
+
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-tel:focus,
+.header-tel:hover {
+  color: var(--accent-color);
+}
+.header-tel:active {
+  color: var(--accent-color);
+}
+
+/*-------------HERO------------------*/
+
+.main {
+  background-color: var(--main-title-color);
+}
+.main-sections {
+  background: #2f303a;
+}
+.main-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.main-button {
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: 700;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  background-color: var(--accent-color);
+  color: var(--accent-color);
+
+}
+.main-button:focus,
+.main-button:hover {
+  background-color: var(--main-title-color);
+  color: var(--accent-color);
+}
+.btn {
+  color: var(--third-text-color);
+}
+.btn:hover,
+.btn:focus {
+  color: var(--main-text-color);
+}
+.main-button-portfolio {
+  color: var(--main-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  background-color: none;
+}
+
+.main-button-portfolio:focus,
+.main-button-portfolio:hover {
+  background-color: var(--accent-color);
+}
+
+.sections-subtitle {
+  background-color: var(--main-title-color);
+}
+.sektions-link {
+  list-style: none;
+}
+.sektions-item-link{
+  list-style: none;
+  text-decoration: none; 
+}
+.sektions-item-link {
+  cursor: pointer;
+  font-family: Roboto;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.62;
+ text-align: center;
+ letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.sektions-item-link:focus,
+.sektions-item-link:hover {
+  color: var(--third-text-color);
+  background-color: var(--accent-color);
+}
+.sektions-item-link:active {
+  color: var(--accent-color);
+}
+.title{
+  list-style: none;
+}
+.title-list{
+  list-style: none;
+}
+.title-list-text{
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 14px;
+ line-height: 1.14;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+ color: var(--main-text-color);
+}
+.post-list{
+  list-style: none;
+}
+.working {
+  background-color: var(--main-title-color);
+}
+.foto-work {
+  list-style: none;
+}
+.working-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  color: #212121;
+}
+.team {
+  list-style: none;
+}
+.foto-team-img {
+  list-style: none;
+}
+.team-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.16;
+  color: #212121;
+}
+.foto-team-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #212121;
+}
+
+.post-pre-text{
+  font-family: Roboto;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 2;
+letter-spacing: 0.06em;
+color: var(--main-text-color);
+}
+
+/*--------------FOOTER--------------*/
+.footer {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  background: #2f303a;
+}
+.footer-link {
+  font-family: Raleway;
+  font-style: 700;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--third-text-color);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+.footer-link:active {
+  color: var(--accent-color);
+}
+.footer-address {
+  font-family: Roboto;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 1.71;
+letter-spacing: 0.03em;
+  color: var(--third-text-color);
+}
+.footer-email {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-email:focus,
+.footer-email:hover {
+  color: var(--accent-color);
+}
+.footer-email:active {
+  color: var(--accent-color);
+}
+.footer-tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel:focus,
+.footer-tel:hover {
+  color: var(--accent-color);
+}
+.footer-tel:active {
+  color: var(--accent-color);
+}
