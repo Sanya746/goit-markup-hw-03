@@ -190,6 +190,12 @@ ul{
 .main-sections {
   height: 600px;
   background: #2f303a;
+  text-align: center;
+}
+
+.hero-container{
+  justify-content: center;
+  text-align: center;
 }
 
 .main-text {
@@ -200,11 +206,10 @@ ul{
   line-height: 1.36;
   text-transform: uppercase;
   color: #ffffff;
+
   width: 696px;
   height: 120px;
   margin-bottom: 30px;
-  text-align: center;
-
 }
 
 .main-button {
