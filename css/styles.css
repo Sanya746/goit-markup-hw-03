@@ -52,6 +52,7 @@ ul{
   text-decoration: none;
 }
 .item-text{
+  width: 270px;
   font-family: Roboto;
   line-height: 1.71;
   letter-spacing: 0.03em;
