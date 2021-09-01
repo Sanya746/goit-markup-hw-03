@@ -60,6 +60,7 @@ ul{
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
   height: 80px;
 }
 /*-------------HEADER-----------------*/
@@ -67,6 +68,11 @@ ul{
 .header {
   background-color: var(--main-title-color);
 }
+.header .container{
+  display: flex;
+  align-items: center;
+}
+
 .header-list {
   padding: 0px;
   margin: 0px;
@@ -91,12 +97,13 @@ ul{
   color: var(--accent-color);
 }
 .header-nav {
-  display: flex;
   list-style: none;
 }
-.header-link:not(:last-child){
-  margin-right: 50px;
+.header-nav{
+  display: flex;
+  align-items: center;
 }
+
 .header-link {
   color: var(--main-text-color);
   list-style: none;
