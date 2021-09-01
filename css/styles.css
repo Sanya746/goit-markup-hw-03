@@ -84,11 +84,15 @@ li,h1,h2,h3,h4,h5,h6{
 .header-nav {
   list-style: none;
 }
+.header-link:not(:last-child){
+  margin-right: 50px;
+}
 .header-link {
   color: var(--main-text-color);
   list-style: none;
 }
 .header-link {
+  display: block;
   margin: 0px;
   padding: 0px;
 
@@ -147,6 +151,8 @@ li,h1,h2,h3,h4,h5,h6{
   background-color: var(--main-title-color);
 }
 .main-sections {
+  height: 600px;
+
   background: #2f303a;
 }
 .main-text {
