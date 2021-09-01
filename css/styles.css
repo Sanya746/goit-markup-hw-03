@@ -23,8 +23,6 @@ ul{
 .link {
   text-decoration: none;
 }
-.link:not(:last-child){
-  margin-right: 50px;}
 
 .list {
   list-style: none;
@@ -47,7 +45,6 @@ ul{
 .item-text{
   margin: 0px;
   padding: 0px;
-
   text-decoration: none;
 }
 .item-text{
@@ -76,6 +73,7 @@ ul{
 .header-list {
   padding: 0px;
   margin: 0px;
+  margin-right: 93px;
   width: 145px;
   height: 31px;
 
@@ -111,9 +109,13 @@ ul{
 
 .header-link {
   display: flex;
-  margin: 0px;
-  padding: 0px;
+}
 
+.header-text:not(:last-child){
+  margin-right: 50px;
+} 
+
+.header-text{
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -122,13 +124,21 @@ ul{
   letter-spacing: 0.02em;
   color: #212121;
 }
-.header-link:focus,
-.header-link:hover {
+
+.header-text:focus,
+.header-text:hover {
   color: var(--accent-color);
 }
 
-.header-link:active {
+.header-text:active {
   color: var(--accent-color);
+}
+
+.header-right{
+  margin-left: auto;
+}
+.header-email:not(:last-child){
+  margin-right: 50px;
 }
 
 .header-email {
