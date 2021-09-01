@@ -32,6 +32,7 @@ ul{
 .pre-text {
   margin: 0px;
   padding: 0px;
+  text-align: center;
 
   font-family: Roboto;
   font-style: normal;
@@ -65,8 +66,12 @@ ul{
 }
 
 .sections{
-  padding-top: 94px;
   padding-bottom: 94px;
+}
+
+
+.title-vrap{
+  display: flex;
 }
 
 /*-------------HEADER-----------------*/
@@ -197,7 +202,8 @@ ul{
 }
 
 .main-sections {
-  padding: 200px 0px;
+  height: 600px;
+  padding-top: 200px;
   background: #2f303a;
   text-align: center;
 }
@@ -299,6 +305,7 @@ ul{
 }
 .title-list{
   display: flex;
+
 }
 
 .title-list{
@@ -306,11 +313,13 @@ ul{
   list-style: none;
 }
 
-.title-list-text:not(:last-child){
-  margin-right: 30px;
+.title-list-text + .title-list-text{
+  margin-left: 30px;
 }
 
 .title-list-text{
+  margin-bottom: 10px;
+  width: 270px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -321,24 +330,43 @@ ul{
   color: var(--main-text-color);
 }
 
+.title-text{
+  display: flex;
+  width: 270px;
+}
+
 .post-list{
   margin: 0px;
   padding: 0px;
 
   list-style: none;
 }
+
 .working {
   background-color: var(--main-title-color);
 }
+
+.foto-work{
+  display: flex;
+}
+
 .foto-work {
   margin: 0px;
   padding: 0px;
 
   list-style: none;
 }
+
+
+.foto-work-img:not(:last-child){
+  margin-right: 30px;
+}
+
 .working-text {
-  margin: 0px;
+  margin-bottom: 50px;
   padding: 0px;
+  text-align: center;
+
 
   font-family: Roboto;
   font-style: normal;
@@ -350,9 +378,16 @@ ul{
 .team {
   list-style: none;
 }
+
+
 .foto-team{
   margin: 0px;
   padding: 0px;
+}
+
+
+.foto-team-img:not(:last-child){
+  margin-right: 30px;
 }
 
 .foto-team-img {
@@ -361,9 +396,16 @@ ul{
 
   list-style: none;
 }
+
+.team{
+  display: flex;
+  padding-bottom: 94px;
+}
+
 .team-text {
-  margin: 0px;
+  margin-bottom: 50px;
   padding: 0px;
+  text-align: center;
 
   font-family: Roboto;
   font-style: normal;
@@ -372,9 +414,26 @@ ul{
   line-height: 1.16;
   color: #212121;
 }
+
+.foto-team{
+  display: flex;
+
+}
+
+.foto-team-img{
+  width: 270px;
+  height: 260px;
+}
+
 .foto-team-text {
-  margin: 0px;
+  margin-top: 30px;
   padding: 0px;
+  text-align: center;
+}
+
+.pre-text-vrap{
+  margin-top: 10px;
+  text-align: center;
 
   font-family: Roboto;
   font-style: normal;
