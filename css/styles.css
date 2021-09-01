@@ -8,7 +8,7 @@
 }
 .body {
   font-family: "Raleway","Roboto",sans-serif;
-
+  margin: 0px;
 }
 
 li,h1,h2,h3,h4,h5,h6{
@@ -49,18 +49,20 @@ li,h1,h2,h3,h4,h5,h6{
   letter-spacing: 0.03em;
   color: #757575;
 }
-
+.container{
+  width: 1200px;
+}
 /*-------------HEADER-----------------*/
 
 .header {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  
   background-color: var(--main-title-color);
 }
 .header-list {
   padding: 0px;
   margin: 0px;
+  width: 145px;
+  height: 31px;
 
   font-family: Raleway;
   font-style: 700;
@@ -158,6 +160,11 @@ li,h1,h2,h3,h4,h5,h6{
 }
 
 .main-button {
+  padding: 10px 32px;
+  border-radius: 4px;
+  min-width: 200px;
+  height: 50px;
+
   
   cursor: pointer;
   font-family: Roboto;
@@ -212,12 +219,12 @@ li,h1,h2,h3,h4,h5,h6{
 .sektions-item-link {
   cursor: pointer;
   font-family: Roboto;
- font-style: normal;
- font-weight: 500;
- font-size: 16px;
- line-height: 1.62;
- text-align: center;
- letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 .sektions-item-link:focus,
@@ -249,7 +256,7 @@ li,h1,h2,h3,h4,h5,h6{
 .post-list{
   margin: 0px;
   padding: 0px;
-  
+
   list-style: none;
 }
 .working {
