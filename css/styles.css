@@ -190,8 +190,8 @@ ul{
 .main-sections {
   height: 600px;
   background: #2f303a;
-  flex-grow: 1;
 }
+
 .main-text {
   font-family: Roboto;
   font-style: normal;
@@ -200,8 +200,9 @@ ul{
   line-height: 1.36;
   text-transform: uppercase;
   color: #ffffff;
-  padding-top: 200px;
-  padding-bottom: 280px;
+  width: 696px;
+  height: 120px;
+  margin-bottom: 30px;
   text-align: center;
 
 }
@@ -223,7 +224,6 @@ ul{
   line-height: 1.87;
   background-color: var(--accent-color);
   color: var(--accent-color);
-
 }
 .main-button:focus,
 .main-button:hover {
