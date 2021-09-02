@@ -272,12 +272,21 @@ ul{
 .sections-subtitle {
   background-color: var(--main-title-color);
 }
+
+.sektions-link{
+  display: flex;
+}
+
 .sektions-link {
   margin: 0px;
-  padding: 0px;
-
+  padding-top: 94px;
   list-style: none;
 }
+
+.sektions-item-link:not(:last-child){
+  margin-right: 8px;
+}
+
 .sektions-item-link{
   list-style: none;
   text-decoration: none; 
