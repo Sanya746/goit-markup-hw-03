@@ -29,7 +29,7 @@ ul{
   text-decoration: none;
 }
 
-.pre-text {
+.pre-title {
   margin: 0px;
   padding: 0px;
 
@@ -395,8 +395,23 @@ ul{
 }
 
 .post-pre-text{
-  margin: 20 24px;
+ padding-left: 20px;
+ padding-top: 24px;
 }
+
+.post-text  {
+  padding-left: 20px;
+  padding-top: 4px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 
 .working {
   background-color: var(--main-title-color);
@@ -499,6 +514,7 @@ ul{
   color: #212121;
 }
 
+
 .post-pre-text{
   font-family: Roboto;
  font-style: normal;
@@ -507,6 +523,12 @@ ul{
  line-height: 2;
 letter-spacing: 0.06em;
 color: var(--main-text-color);
+}
+
+.pre-text{
+  padding-left: 20px;
+  padding-top: 4px;
+
 }
 
 /*--------------FOOTER--------------*/
