@@ -384,7 +384,9 @@ ul{
 .post-item{
   list-style: none;
 }
-
+.post-pre-text{
+  display: inline;
+}
 .post-pre-text{
  padding-left: 24px;
  padding-right: 24px;
