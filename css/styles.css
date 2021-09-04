@@ -372,6 +372,7 @@ ul{
 
 .post-item{
   width: 370px; 
+  padding: 20 24;
 }
 
 .post-item{
@@ -384,15 +385,17 @@ ul{
   list-style: none;
   border: 1px solid #EEEEEE;
 }
-.post-pre-text{
+
+.text{
   display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .post-pre-text{
- padding-left: 24px;
- padding-right: 24px;
- padding-top: 20px;
- padding-bottom: 20px;
+  display: block;
 }
 
 .post-text  {
