@@ -71,7 +71,6 @@ ul{
 
 .title-vrap{
   display: flex;
-  padding-top: 94px;
 }
 
 /*-------------HEADER-----------------*/
@@ -284,8 +283,6 @@ ul{
 
 .sektions-link {
   margin: 0 auto;
-  padding-top: 94px;
-  padding-bottom: 94;
   list-style: none;
   width: 611px;
 }
@@ -329,7 +326,9 @@ ul{
 .sektions-item-link:active {
   color: var(--accent-color);
 }
-.title{
+.title{  
+  padding-top: 94px;
+  padding-bottom: 94px;
   list-style: none;
 }
 .title-list{
