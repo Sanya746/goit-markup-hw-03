@@ -378,26 +378,21 @@ ul{
   flex-basis: ((100% - 3 * 30px) / 3);
   margin-left: 30px;
   margin-top: 30px;
-  border-bottom: 1px solid #EEEEEE;
 }
 
 .post-item{
   list-style: none;
+  border: 1px solid #EEEEEE;
 }
 .post-pre-text{
-  display: inline;
+  display: block;
 }
+
 .post-pre-text{
  padding-left: 24px;
  padding-right: 24px;
  padding-top: 20px;
  padding-bottom: 20px;
- font-family: Roboto;
- font-style: normal;
- font-weight: 700;
- font-size: 18px;
- line-height: 2;
-
 }
 
 .post-text  {
@@ -518,12 +513,12 @@ ul{
 
 .post-pre-text{
   font-family: Roboto;
- font-style: normal;
- font-weight: 700;
- font-size: 18px;
- line-height: 2;
-letter-spacing: 0.06em;
-color: var(--main-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
 }
 
 .pre-text{
