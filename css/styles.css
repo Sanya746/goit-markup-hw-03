@@ -262,6 +262,7 @@ ul{
 }
 
 .sections-subtitle {
+  padding-top: 94px;
   background-color: var(--main-title-color);
 }
 
@@ -359,8 +360,7 @@ ul{
 }
 
 .container-link{
-  padding-top: 94px;
-  padding-bottom: 34px;
+ margin-bottom: 50px;;
 }
 
 .title-text{
