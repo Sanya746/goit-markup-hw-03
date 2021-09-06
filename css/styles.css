@@ -330,19 +330,17 @@ ul{
 }
 
 .title-table{
-  display: block;
+  display: flex;
   width: 270px;
 }
   
 
 .title-table{
+  display: block;
  margin: 0 auto;
 }
 
-.title-table:not(:last-child){
-  margin-right: 8px;}
-
-.title-list-text + .title-list-text{
+.title-table + .title-table{
   margin-left: 30px;
 }
 
