@@ -211,7 +211,7 @@ ul{
   margin-right: auto;
   margin-bottom: 30px;
 }
-
+/*------------КНОПКА----------*/
 .main-button {
   align-items: center;
   padding: 10px 32px;
@@ -598,5 +598,4 @@ letter-spacing: 0.03em;
 
 .end{
   display: block;
-  background-color: violet;
 }
